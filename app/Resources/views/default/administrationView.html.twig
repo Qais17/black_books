@@ -1,1 +1,20 @@
 {% extends "base.html.twig" %}
+
+{% block body %}
+    <nav class="nav navbar-default">
+      
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div id="contantCall" class=" col-xs-offset-3 col-xs-6">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{asset("./script/initJs.js")}}"></script>
+    <script src="{{asset("./script/consulting_request.js")}}"></script>
+    <script src="{{asset("./script/rendering.js")}}"></script>
+    <script src="{{asset("./script/app.js")}}"></script>
+{% endblock %}

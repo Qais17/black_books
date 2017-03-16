@@ -29,8 +29,7 @@ class ConsultingController extends Controller{
      * @Method({"GET"})
      */
    public function getView() {
-        return $this->render("default/consultingView.html.twig");
-        
+        return $this->render("default/consultingView.html.twig");   
     }
     
    /**
